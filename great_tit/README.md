@@ -7,7 +7,8 @@ tit individuals sample across Europe. Each bird was seqenced on a single lane of
 ## Public Availibility of sequence data and files
 The fastq file used are publically available at [here](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA381923)
 
-The Version of the great tit genome (V1.04) used in this pipeline is publically available [here](ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/522/545/GCF_001522545.1_Parus_major1.0.3)
+The Version of the great tit genome (V1.04) used in this pipeline is publically available 
+[here](https://www.ncbi.nlm.nih.gov/assembly/GCF_001522545.1/)
 
 ## Programs used in this pipeline
 __Versions of programs used__
@@ -202,7 +203,7 @@ The genotyping was perforemd using the GenotypeGVCFs tool. The allSites VCF file
 
 Called SNPs with Freebayes using the following command:
     
-    $ freebayes+' -f  -L recalibrated_bams_bgi.txt  --report-monomorphic --report-genotype-likelihood-max --min-mapping-quality 20 --min-base-quality 10
+    $ freebayes -f  -L recalibrated_bams_bgi.txt  --report-monomorphic --report-genotype-likelihood-max --min-mapping-quality 20 --min-base-quality 10
     
 Extracted and filtered SNPs based on depth and Quality
 
