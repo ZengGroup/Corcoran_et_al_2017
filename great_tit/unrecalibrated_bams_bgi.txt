@@ -1,0 +1,10 @@
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/bams/1280.dedup.real.bam	M
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/bams/1485.dedup.real.bam	M
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/bams/15.dedup.real.bam	M
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/bams/167.dedup.real.bam	M
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/bams/249-R.dedup.real.bam	M
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/bams/318.dedup.real.bam		M
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/bams/61.dedup.real.bam		M
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/bams/917.dedup.real.bam		M
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/bams/943-R.dedup.real.bam	M
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/bams/TR43666.dedup.real.bam	M

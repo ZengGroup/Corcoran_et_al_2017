@@ -1,0 +1,10 @@
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/recalibrated_bams/1280.dedup.real.recal.bam	M
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/recalibrated_bams/1485.dedup.real.recal.bam	M
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/recalibrated_bams/15.dedup.real.recal.bam	M
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/recalibrated_bams/167.dedup.real.recal.bam	M
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/recalibrated_bams/249-R.dedup.real.recal.bam	M
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/recalibrated_bams/318.dedup.real.recal.bam	M
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/recalibrated_bams/61.dedup.real.recal.bam	M
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/recalibrated_bams/917.dedup.real.recal.bam	M
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/recalibrated_bams/943-R.dedup.real.recal.bam	M
+/fastdata/bo1pgc/parus_reseq/bgi_reseq/recalibrated_bams/TR43666.dedup.real.recal.bam	M
