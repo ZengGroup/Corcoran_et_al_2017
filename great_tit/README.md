@@ -202,7 +202,7 @@ The genotyping was perforemd using the GenotypeGVCFs tool. The allSites VCF file
 
 Called SNPs with Freebayes using the following command:
     
-    $ freebayes+' -f  -L recalibrated_bams_bgi.txt  --report-monomorphic --report-genotype-likelihood-max --min-mapping-quality 20 --min-base-quality 10
+    $ freebayes -f  -L recalibrated_bams_bgi.txt  --report-monomorphic --report-genotype-likelihood-max --min-mapping-quality 20 --min-base-quality 10
     
 Extracted and filtered SNPs based on depth and Quality
 
