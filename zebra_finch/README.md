@@ -1,7 +1,7 @@
 # Zebra Finch SNP calling 
 
 This document describes the mapping and SNP calling from paired end Illumina sequence data from 10 zebra finch
-individuals sampled from Australia. The birds were originally sequenced and mapped to the zebra finch genome in the study of [Singhal et al. (2015)](https://www.ncbi.nlm.nih.gov/pubmed/26586757).
+individuals sampled from Australia. The birds were originally sequenced and  sequence reads mapped to the zebra finch genome in the study of [Singhal et al. (2015)](https://www.ncbi.nlm.nih.gov/pubmed/26586757).
 
 ## Public Availibility of sequence data and files
 The BAM files used below are publically available from [here](http://www.ebi.ac.uk/ena/data/view/PRJEB10586)
