@@ -49,7 +49,7 @@ fi
 
 java -Xmx24g -jar $GATKHOME/GenomeAnalysisTK.jar -T VariantRecalibrator -R $REF_FILE \
 -input $VCF_FILE \
--resource:zf_reseq,known=true,training=true,truth=true,prior=10.0 $TRAINING_VCF \
+-resource:gt_reseq,known=true,training=true,truth=true,prior=10.0 $TRAINING_VCF \
 -an DP \
 -an QD \
 -an FS \

@@ -4,7 +4,7 @@ import os, sys
 # extract tranches (take two 99.9 and 99 and 90 to test)
 
 gatk_exe='java -Xmx8g -jar $GATKHOME/GenomeAnalysisTK.jar'
-ref_fasta='/fastdata/bo1tg/ref_genome/Parus_major_1.04.rename.fa'#'/data/bo1tg/zebra/taeGut1.fa'#/fastdata/bo1tg/ref_genome/Parus_major_1.04.rename.fa'
+ref_fasta='/fastdata/bo1tg/ref_genome/Parus_major_1.04.rename.fa'
 vcf='/fastdata/bo1tg/VCF_10birds/bgi_10birds.raw.snps.indels.all_sites.vcf.gz'
 recal_file='/fastdata/bo1tg/VCF_10birds/VCF_merge/vqsr_reports/gt_10birds.recalibrate_SNP.recal'
 tranch_file='/fastdata/bo1tg/VCF_10birds/VCF_merge/vqsr_reports/gt_10birds.recalibrate_SNP.tranches'
@@ -12,7 +12,6 @@ tranch_file='/fastdata/bo1tg/VCF_10birds/VCF_merge/vqsr_reports/gt_10birds.recal
 
 for tranch in [90,99,99.9,100]:
 	output='/fastdata/bo1tg/VCF_10birds/VCF_merge/vqsr/recalibrated_snps_'+str(tranch)+'.vcf.gz'
-
 
 	command=gatk_exe+' -T ApplyRecalibration -R '+ref_fasta+' -input '+vcf+' -mode SNP --ts_filter_level '+str(tranch)+' -recalFile '+recal_file+' -tranchesFile '+tranch_file+' -o '+output
 	#print(gatk_exe+' -T ApplyRecalibration -R '+ref_fasta+' -input '+vcf+' -mode SNP --ts_filter_level '+str(tranch)+' -recalFile '+recal_file+' -tranchesFile '+tranch_file+' -o '+output)

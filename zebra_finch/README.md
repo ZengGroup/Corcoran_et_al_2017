@@ -14,6 +14,7 @@ __Versions of programs used__
 * bcftools 1.2
 * freebayes 1.02
 * faList from https://www.biostat.wisc.edu/~cdewey/software/cndsrc-2013.01.11.tar.gz
+* vcftools v0.1.14
 
 ## Steps in the pipeline
 
@@ -50,7 +51,7 @@ Extracted and filtered SNPs based on depth and Quality
 	$ python extract_SNPS_only.py
 	$ qsub sort_and_bgzip.sh
 
-Intersected the GATK SNPs with the filtered Freebayes SNPs to generate the training set using bcftools isec program.
+Intersected the filtered GATK SNPs with the filtered Freebayes SNPs to generate the training set using bcftools isec program.
 
     $ bcftools isec -p /fastdata/bo1tg/zebra_VCF_10birds/VCF_merge/Merged_VCF /fastdata/bo1tg/zebra_VCF_10birds/VCF_merge/zf_10birds.gatk.SNPsONLY.sorted.vcf.gz /fastdata/bo1tg/zebra_VCF_10birds/VCF_merge/zf_10birds.freebayes.SNPsONLY.sorted.vcf.gz -n=2 -w 1
 

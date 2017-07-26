@@ -35,19 +35,6 @@ fi
 
 
 
-# adapters for the Washington Birds
-
-#adapter_1="AGATCGGAAGAGCACACGTCTGAACTCCAGTCACNNNNNNNNATCTCGTATGCCGTCTTCTGCTTG"
-#adapter_2="AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTNNNNNNNNNNNNAGATCTCGGTGGTCGCCGTAT" # ran best filtering with this sequence for adapter 2
-#five_prime_1="CAAGCAGAAGACGGCATACGAGATNNNNNNNNGTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT" # revcomp adapter_1
-#five_prime_2="AATGATACGGCGACCACCGAGATCTNNNNNNNNNNNNACACTCTTTCCCTACACGACGCTCTTCCGATCT" #revcomp adapter_2
-
-# The following sequences were chosen after inspection of the fastqc failures for washingtion
-#five_prime_seq2="CGGTGGT" #fastq_2 files weree enriched at 5' for this sequence
-#five_prime_seq1="CGTCATA" #fastq_1 files were enriched at 5' for this sequence3
-#five_prime_seq3="NNGTGGGCG" # this sequence in found on 5' from position 3 in a number of fq2 files                                                          
-#five_prime_seq4="GATCGGAAGAGC" # enriched in five prime from pos 1 in a few fq1 files                                                                             
-
 # adapters for sample 917 BGI data 
 adapter_1_917="AGATCGGAAGAGCACACGTCTGAACTCCAGTCACNNNNNNNNATCTCGTATGCCGTCTTCTGCTTG"
 adapter_2_917="AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTNNNNNNNNNNNNAGATCTCGGTGGTCGCCGTA"

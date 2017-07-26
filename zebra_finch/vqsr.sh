@@ -17,11 +17,11 @@ module load apps/R/3.2.1 # need to install ggplot2
 
 # PATHS required files and output directories for files produced
 REF_FILE=/data/bo1tg/zebra/taeGut1.reordered.fa
-VQSR_REPORTS=/fastdata/bo1tg/VCF_10birds/VCF_merge/vqsr_reports
+VQSR_REPORTS=/fastdata/bo1tg/zebra_VCF_10birds/VCF_merge/vqsr_reports
 TYPE=SNP #specify SNP or INDEL
-VCF_FILE=/fastdata/bo1tg/VCF_10birds/zf_10birds.raw.snps.all_sites.vcf.gz
-TRAINING_VCF=/fastdata/bo1tg/VCF_10birds/VCF_merge/Merged_VCF/0002sorted.vcf # includes Z chromosome
-NAME=gt_10birds
+VCF_FILE=/fastdata/bo1tg/zebra_VCF_10birds/zf_10birds.raw.snps.all_sites.vcf.gz
+TRAINING_VCF=/fastdata/bo1tg/zebra_VCF_10birds/VCF_merge/Merged_VCF/0002sorted.vcf
+NAME=zf_10birds
 
 if [ "$TYPE" != "SNP" -a "$TYPE" != "INDEL" ]; then
 echo "Need to specify SNP or INDEL as first argument"
